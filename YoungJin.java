@@ -7,7 +7,9 @@ public class YoungJin implements Subject{
 
 	private HashMap<Observer, String> yjgMembers;
 	private String Name;
+	// ë‚ ì§œ
 	private String Date;
+	// ì‰¬ëŠ” ì—¬ë¶€
 	private Boolean RestYN;
 	
 	public YoungJin() {
@@ -33,7 +35,7 @@ public class YoungJin implements Subject{
 		}
 	}
 
-	// ¿ÉÀú¹öµé¿¡°Ô ¾Ë¸²
+	//  ì˜µì €ë²„ë“¤ì—ê²Œ ì•Œë¦¼
 	@Override
 	public void notifyChanged() {
 		// TODO Auto-generated method stub
