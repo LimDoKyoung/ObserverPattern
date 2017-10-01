@@ -2,24 +2,24 @@ package observerPatter_Ex;
 
 public class longVacation {
 	public static void main(String[] ar){
-		// È¸»ç ¼³¸³
+		// íšŒì‚¬ ì„¤ë¦½
 		YoungJin yjg = new YoungJin();
 		
-		// Youngjin¿¡ ÀÔ»ç (Observer·Î µî·Ï)
+		// Youngjinì— ì…ì‚¬ (Observerë¡œ ë“±ë¡)
 		Member Jang = new Member(yjg, "Jang");
 		Member Hong = new Member(yjg, "Hong");
 		Member kjg = new Member(yjg, "kjg");
 		Member iseul = new Member(yjg, "iseul");
 		Member Limdo = new Member(yjg, "Limdo");
 		
-		// Youngjin¿¡ Åğ»ç (Observer Á¦°Å)
+		// Youngjin í‡´ì‚¬ (Observer ì œê±°)
 		yjg.removeObserver(Jang);
 		yjg.removeObserver(Hong);
 		
-		// 10¿ù 2ÀÏ ÀÓ½Ã°øÈŞÀÏÀ» ½¬Áö ¾ÊÀ½À» Åëº¸!
-		yjg.setRestDate("10¿ù 2ÀÏ", false);
+		// 10ì›” 2ì¼ ì„ì‹œê³µíœ´ì¼ì„ ì‰¬ì§€ ì•ŠìŒì„ í†µë³´!
+		yjg.setRestDate("10ì›” 2ì¼", false);
 		
-		// »ç½ÇÀº °ÅÁş¸»ÀÌ°í 10¿ù 2ÀÏÀº ½®´Ù!!!
-		yjg.setRestDate("10¿ù 2ÀÏ", true);
+		// ì‚¬ì‹¤ì€ ê±°ì§“ë§ì´ê³  10ì›” 2ì¼ì€ ì‰°ë‹¤!!!
+		yjg.setRestDate("10ì›” 2ì¼", true);
 	}
 }
