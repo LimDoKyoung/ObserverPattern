@@ -27,9 +27,9 @@ public class Member implements Observer{
 	public void say() {
 		// TODO Auto-generated method stub
 		if(RestYN == true)
-			System.out.println(Name+ " : Yeah~! "+Date+" ½®´Ù!");
+			System.out.println(Name+ " : Yeah~! "+Date+" ì‰°ë‹¤!");
 		else
-			System.out.println(Name+ " : Ahhhh~~~ Á¦¹ß...");
+			System.out.println(Name+ " : Ahhhh~~~ ì œë°œ...");
 	}
 
 }
